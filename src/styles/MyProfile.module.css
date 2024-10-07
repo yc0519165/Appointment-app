@@ -1,0 +1,113 @@
+.prfileContainer {
+  max-width: 32rem;
+  margin: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 14px;
+  line-height: 20px;
+}
+.prfileContainer img {
+  width: 9rem;
+  border-radius: 8px;
+}
+.userName {
+  background-color: #f9fafb;
+  font-size: 1.87rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  max-width: 15rem;
+  margin-top: 1rem;
+}
+.setUserName {
+  font-size: 1.87rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  color: #262626;
+  margin-top: 1rem;
+}
+.line {
+  height: 1px;
+  background-color: #a1a1aa;
+  border: none;
+}
+.contact {
+  color: #737373;
+  text-decoration: underline;
+  margin-top: 12px;
+}
+.contactDiv {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  row-gap: 10px;
+  margin-top: 12px;
+  color: #404040;
+}
+.allName {
+  font-weight: 500;
+}
+.userEmail {
+  color: #5f6fff;
+  font-weight: 400;
+}
+.userPhoneSet {
+  background-color: #f3f4f6;
+  max-width: 13rem;
+}
+.userPhone {
+  color: #5f6fff;
+  font-weight: 400;
+}
+.userAddressLinesSet {
+  background-color: #f9fafb;
+}
+.userAddress {
+  color: #6b7280;
+}
+.basicInfoName {
+  text-decoration: underline;
+  margin-top: 12px;
+  color: #737373;
+}
+.basicInfoContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  row-gap: 10px;
+  margin-top: 12px;
+}
+.selectGender {
+  max-width: 80px;
+  background-color: #f3f4f6;
+}
+.selecteGender {
+  color: #9ca3af;
+}
+.setDob {
+  max-width: 100px;
+  background-color: #f3f4f6;
+}
+.dob {
+  color: #9ca3af;
+}
+.saveInfoBtn {
+  border: 1px solid #5f6fff;
+  margin-top: 12px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 20px;
+  transition: all;
+}
+.saveInfoBtn:hover {
+  background-color: #5f6fff;
+  color: #fff;
+}
+.editBtn {
+  border: 1px solid #5f6fff;
+  margin-top: 12px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 20px;
+  transition: all;
+}
+.editBtn:hover {
+  background-color: #5f6fff;
+  color: #fff;
+}

@@ -1,0 +1,60 @@
+form {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logSing {
+  min-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  margin: auto;
+  padding: 20px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.topHeading {
+  font-size: 20px;
+  font-weight: 700;
+}
+.topMessage {
+  font-size: 12px;
+}
+.input {
+  width: 100%;
+}
+.allInputs {
+  width: 100%;
+  margin-top: 5px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.book {
+  width: 100%;
+  padding: 10px 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #5f6fff;
+  border: 0.5px solid gray;
+  transition: 0.5s;
+}
+.book:hover {
+  background-color: transparent;
+  color: #5f6fff;
+}
+.link {
+  color: #5f6fff;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

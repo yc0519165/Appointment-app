@@ -1,0 +1,185 @@
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/bgc.jpg");
+  padding: 100px 0px;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.heading {
+  margin: 0 0 0 50px;
+}
+.heading h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.group {
+  display: flex;
+  gap: 20px;
+  padding: 30px 0 40px 0;
+}
+.group p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.buts {
+  padding: 15px 30px;
+  text-decoration: none;
+  border: none;
+  margin: 40px 0 10px 0;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #5f6fff;
+  background-color: #fff;
+  transition: 0.5s;
+  font-weight: 500;
+}
+.buts:hover {
+  background-color: #5f6fff;
+  color: #fff;
+  border: 0.5px solid #fff;
+}
+/* ====================specialSection=====================*/
+
+.specialSection {
+  margin: 50px;
+  padding: 40px;
+  border: 0.1px solid #bdbdbd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.cotent {
+  text-align: center;
+}
+.cotent h1 {
+  font-size: 40px;
+  padding: 20px;
+  color: #1f2937;
+}
+.cotent p {
+  font-size: 14px;
+  padding: 0 10px 10px;
+  color: #4b5563;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px 0 10px;
+  gap: 80px;
+}
+.card p {
+  margin-top: 10px;
+  color: #4b5563;
+  text-align: center;
+}
+.card h1 {
+  color: #1f2937;
+}
+
+.card {
+  transition: 0.6s;
+  text-align: center;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+/* ============= Top doctors ====================*/
+
+.doctors {
+  height: auto;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.docCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.docCard {
+  height: 430px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #bdbdbd;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.docCard:hover {
+  transform: translateY(-12px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.doctbg {
+  height: 250px;
+  background: linear-gradient(to bottom, #a3b7ff 20%, #fff 100%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.docCard p {
+  color: #0fbf00;
+  padding: 10px 0 10px 20px;
+  font-size: 14px;
+}
+.docCard h3 {
+  color: #1f2937;
+  font-size: 20px;
+  padding: 0 0 0px 20px;
+}
+.docCard span {
+  color: #4b5563;
+  font-size: 14px;
+  padding: 0 0 0 20px;
+}
+.btn {
+  width: 180px;
+  height: 40px;
+  font-size: 14px;
+  color: #5f6fff;
+  background: transparent;
+  border: 0.5px solid #5f6fff;
+  border-radius: 5px;
+  margin: 20px 46px;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #5f6fff;
+  color: #fff;
+}
+/*===============appointSeaction===================*/
+
+.appointSeaction {
+  display: flex;
+  background-color: #5f6fff;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  align-items: center;
+  color: #fff;
+}
+.appointSeaction h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* =============== All docros ======================*/
+
+.allDoctorCon {
+  margin: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  width: auto;
+}
