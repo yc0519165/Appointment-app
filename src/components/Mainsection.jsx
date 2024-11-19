@@ -1,3 +1,4 @@
+import { assets } from "../assets/prescripto_assets/assets/assets_frontend/assets";
 import styles from "../styles/Home.module.css";
 export const Mainsection = () => {
   return (
@@ -8,10 +9,7 @@ export const Mainsection = () => {
           With trusted Doctors
         </h1>
         <div className={`${styles.group}`}>
-          <img
-            src="src/assets/prescripto_assets/assets/assets_frontend/group_profiles.png"
-            alt=""
-          />
+          <img src={assets.group_profiles} alt="" />
           <p>
             Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.

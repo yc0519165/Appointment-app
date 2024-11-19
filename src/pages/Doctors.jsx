@@ -3,6 +3,7 @@ import { AppContex } from "../contex/AppContext";
 import styles from "../styles/Doctors.module.css";
 import { useContext, useEffect, useState } from "react";
 
+
 export const Doctors = () => {
   const { speciality } = useParams();
   const { doctors } = useContext(AppContex);
