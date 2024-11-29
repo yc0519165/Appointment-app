@@ -1,4 +1,5 @@
-import { assets } from "/src/fileassets/asset.js";
+// import { assets } from "/src/fileassets/asset.js";
+import { assets } from "../assets/prescripto_assets/assets/assets_frontend/assets";
 import styles from "../styles/About.module.css";
 export const About = () => {
   return (
@@ -11,7 +12,7 @@ export const About = () => {
         </div>
 
         <div className={`${styles.about} `}>
-          <img src={assets.about_image} alt="" />
+          <img src={assets.about_pic} alt="" />
 
           <div className={`${styles.content}`}>
             <p>

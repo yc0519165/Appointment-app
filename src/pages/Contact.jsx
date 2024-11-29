@@ -1,5 +1,6 @@
+import { assets } from "../assets/prescripto_assets/assets/assets_frontend/assets";
 import styles from "../styles/Cntact.module.css";
-import { assets } from "../fileassets/asset";
+// import { assets } from "../fileassets/asset";
 
 export const Contact = () => {
   return (

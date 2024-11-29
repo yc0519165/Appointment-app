@@ -2,8 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import styles from "../styles/Appointment.module.css";
 import { AppContex } from "../contex/AppContext";
 import { useParams } from "react-router-dom";
-import { assets } from "../fileassets/asset";
+// import { assets } from "../fileassets/asset";
 import { RelatedDoctors } from "../components/RelatedDoctors";
+import { assets } from "../assets/prescripto_assets/assets/assets_frontend/assets";
 
 const daysOfWeak = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
@@ -89,14 +90,14 @@ export const Appointment = () => {
         <div className={`${styles.details}`}>
           <h2>
             {docInfo.name}
-            <img src={assets.verified_icon} alt="" />
+            <img src={assets.verified_img} alt="" />
           </h2>
           <div className={`${styles.profession}`}>
             <p>{docInfo.degree}</p>-<p>{docInfo.speciality}</p>
             <button>{docInfo.experience}</button>
           </div>
           <p className={`${styles.about}`}>
-            About <img src={assets.info_icon} alt="" />
+            About <img src={assets.info_img} alt="" />
           </p>
           <p className={`${styles.text}`}>{docInfo.about}</p>
           <span>

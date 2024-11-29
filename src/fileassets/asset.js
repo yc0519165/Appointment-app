@@ -1,15 +1,15 @@
-import verified_icon from "/src/assets/prescripto_assets/assets/assets_frontend/verified_icon.svg";
-import contact_image from "/src/assets/prescripto_assets/assets/assets_frontend/contact_image.png";
-import about_image from "/src/assets/prescripto_assets/assets/assets_frontend/about_image.png";
-import info_icon from "/src/assets/prescripto_assets/assets/assets_frontend/info_icon.svg";
-import profile_pic from "/src/assets/profile.jpg";
-export const assets = {
-  verified_icon,
-  info_icon,
-  profile_pic,
-  contact_image,
-  about_image,
-};
+// import verified_icon from "/src/assets/prescripto_assets/assets/assets_frontend/verified_icon.svg";
+// import contact_image from "/src/assets/prescripto_assets/assets/assets_frontend/contact_image.png";
+// import about_image from "/src/assets/prescripto_assets/assets/assets_frontend/about_image.png";
+// import info_icon from "/src/assets/prescripto_assets/assets/assets_frontend/info_icon.svg";
+// import profile_pic from "/src/assets/profile.jpg";
+// export const assets = {
+//   verified_icon,
+//   info_icon,
+//   profile_pic,
+//   contact_image,
+//   about_image,
+// };
 
 export const specialityData = [
   {
