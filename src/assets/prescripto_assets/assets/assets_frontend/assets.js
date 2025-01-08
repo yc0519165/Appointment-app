@@ -32,7 +32,7 @@ import doc14 from "./doc14.png";
 import doc15 from "./doc15.png";
 import Dermatologist from "./Dermatologist.svg";
 import Gastroenterologist from "./Gastroenterologist.svg";
-import General_physician from "./General_physician.svg";
+import general_physician from "./General_physician.svg";
 import Gynecologist from "./Gynecologist.svg";
 import Neurologist from "./Neurologist.svg";
 import Pediatricians from "./Pediatricians.svg";
@@ -64,13 +64,14 @@ export const assets = {
   upload_icon,
   stripe_logo,
   razorpay_logo,
+  general_physician,
   // appointment,
 };
 
 export const specialityData = [
   {
     speciality: "General physician",
-    image: General_physician,
+    image: assets.general_physician,
   },
   {
     speciality: "Gynecologist",
